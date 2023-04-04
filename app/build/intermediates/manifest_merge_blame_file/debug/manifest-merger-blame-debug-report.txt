@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.image_par"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\Public\image\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Public\image\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\장은혁\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.image_par.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\장은혁\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\장은혁\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.image_par.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\장은혁\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\장은혁\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:7:5-35:19
+20        android:allowBackup="true"
+20-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\장은혁\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:10:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:11:9-54
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:12:9-43
+27        android:label="@string/app_name"
+27-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:13:9-41
+28        android:supportsRtl="true"
+28-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:14:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Image_par"
+30-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:15:9-47
+31        android:usesCleartextTraffic="true" >
+31-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:9:9-44
+32        <activity
+32-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:17:9-19:40
+33            android:name="com.example.image_par.Detail"
+33-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:18:13-35
+34            android:exported="false" />
+34-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:19:13-37
+35        <activity
+35-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:20:9-22:40
+36            android:name="com.example.image_par.ParsingActivity"
+36-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:21:13-44
+37            android:exported="false" />
+37-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:22:13-37
+38        <activity
+38-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:23:9-25:40
+39            android:name="com.example.image_par.SourceActivity"
+39-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:24:13-43
+40            android:exported="false" />
+40-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:25:13-37
+41        <activity
+41-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:26:9-34:20
+42            android:name="com.example.image_par.MainActivity"
+42-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:27:13-41
+43            android:exported="true" >
+43-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:28:13-36
+44            <intent-filter>
+44-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:29:13-33:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:30:17-69
+45-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:30:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:32:17-77
+47-->C:\Users\Public\image\app\src\main\AndroidManifest.xml:32:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\장은혁\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\장은혁\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.example.image_par.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\장은혁\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\장은혁\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\장은혁\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\장은혁\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\장은혁\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\장은혁\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\장은혁\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\장은혁\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
